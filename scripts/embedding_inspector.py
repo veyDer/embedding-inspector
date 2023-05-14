@@ -23,7 +23,7 @@ SHOW_SIMILARITY_SCORE = False # change to True to enable
 ENABLE_GRAPH = False
 GRAPH_VECTOR_LIMIT = 8 # max number of vectors to draw in graph
 ENABLE_SHOW_CHECKSUM = False #slows down listing loaded embeddings
-REMOVE_ZEROED_VECTORS = True #optional
+REMOVE_ZEROED_VECTORS = False #optional
 EMB_SAVE_EXT = '.pt' #'.bin'
 
 EVAL_PRESETS = ['None','',
