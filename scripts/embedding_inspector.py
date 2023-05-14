@@ -11,16 +11,16 @@ import torch, os
 from modules.textual_inversion.textual_inversion import Embedding
 import collections, math, random
 
-MAX_NUM_MIX = 16 # number of embeddings that can be mixed
-SHOW_NUM_MIX = 6 # number of mixer lines to show initially
+MAX_NUM_MIX = 32 # number of embeddings that can be mixed
+SHOW_NUM_MIX = 8 # number of mixer lines to show initially
 MAX_SIMILAR_EMBS = 30 # number of similar embeddings to show
 VEC_SHOW_TRESHOLD = 1 # change to 10000 to see all values
 VEC_SHOW_PROFILE = 'default' #change to 'full' for more precision
 SEP_STR = '-'*80 # separator string
 
-SHOW_SIMILARITY_SCORE = False # change to True to enable
+SHOW_SIMILARITY_SCORE = True # change to True to enable
 
-ENABLE_GRAPH = False
+ENABLE_GRAPH = True
 GRAPH_VECTOR_LIMIT = 8 # max number of vectors to draw in graph
 ENABLE_SHOW_CHECKSUM = False #slows down listing loaded embeddings
 REMOVE_ZEROED_VECTORS = False #optional
